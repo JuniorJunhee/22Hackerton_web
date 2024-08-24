@@ -1,0 +1,142 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  width: 100%;
+  height: 40px;
+  left: 0px;
+  top: 0px;
+
+  background: #FFFFFF;
+}
+.school_logo{
+  position: absolute;
+  width: 40px;
+  height: 41.3px;
+  left: 23px;
+  top: 11px;
+}
+.main_word{
+  position: absolute;
+  width: 172px;
+  height: 50px;
+  left: 90px;
+  top: 12px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 23px;
+  line-height: 44px;
+
+  color: #000000;
+}
+.main{
+  position: absolute;
+  width: 100%;
+  height: 650px;
+  left: 0px;
+  top: 60px;
+}
+.login{
+  position: absolute;
+  width: 1209px;
+  height: 570px;
+  left: 150px;
+  top: 100px;
+
+  background: rgba(255, 255, 255, 0.64);
+  border-radius: 15px;
+}
+.hello{
+  position: absolute;
+  width: 178px;
+  height: 44px;
+  left: 530px;
+  top: 60px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 750;
+font-size: 30px;
+line-height: 44px;
+/* identical to box height */
+text-align: center;
+
+color: #000000;
+}
+.id{
+  position: absolute;
+width: 74px;
+height: 24px;
+left: 350px;
+top: 160px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 24px;
+
+color: #000000;
+}
+input::placeholder {
+  font-size: 15px;
+}
+.login_id{
+  position: absolute;
+  width: 520px;
+  height: 69px;
+  left: 350px;
+  top: 190px;
+
+  background: #FFFCFC;
+  border-radius: 20px;
+}
+.passward{
+  position: absolute;
+width: 74px;
+height: 24px;
+left: 350px;
+top: 290px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 24px;
+
+color: #000000;
+}
+.login_passwd{
+  position: absolute;
+width: 520px;
+height: 69px;
+left: 350px;
+top: 320px;
+
+background: #FFFCFC;
+border-radius: 20px;
+}
+.login_btn{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 275px;
+  height: 64px;
+  left: 480px;
+  top: 430px;
+
+  font-size: 24px;
+  font-weight: bold;
+  background: #A2C1FF;
+  border: 1px solid #000000;
+  border-radius: 20px;
+}
+@media only screen and (min-width:1200px){
+  .inner{
+    max-width:1200px;
+  }
+}

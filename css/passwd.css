@@ -1,0 +1,101 @@
+.passwd_ch{
+  position: absolute;
+  width: 207px;
+  height: 44px;
+  left: 650px;
+  top: 60px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 44px;
+  /* identical to box height */
+  
+  text-align: center;
+  
+  color: #000000;
+}
+.passwd{
+  position: absolute;
+  width: 187.51px;
+  height: 34.56px;
+  left: 500px;
+  top: 130px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 39px;  
+
+  color: #000000;
+}
+.passwd_box{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 496.99px;
+  height: 77.99px;
+  left: 505px;
+  top: 180px;
+
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  border-radius: 20px;
+}
+.new_passwd{
+  position: absolute;
+  width: 157.26px;
+  height: 34.56px;
+  left: 500px;
+  top: 330px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500; 
+  font-size: 28px;
+  line-height: 39px;
+
+  color: #000000;
+}
+.new_passwd_box{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 496.99px;
+  height: 77.99px;
+  left: 505px;
+  top: 380px;
+
+  border: 1px solid #000000;
+  border-radius: 20px;
+
+}
+.change{
+  position: absolute;
+  width: 148px;
+  height: 48px;
+  left: 680px;
+  top: 540px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 48px;
+
+  color: #000000;
+
+}
+.change_box{
+  position: absolute;
+  width: 493px;
+  height: 88px;
+  left: 505px;
+  top: 520px;
+
+  background: #6FC2FF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}

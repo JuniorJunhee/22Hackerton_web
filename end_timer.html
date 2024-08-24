@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>오늘의 공부 시간 시작</title>
+  <script>
+    function warning(){
+      alert("타이머를 종료합니다");
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <link href="./css/timer_start.css" rel="stylesheet">
+      <img src="./img/school_logo.png" alt="학교로고" class="log">
+      <p class="main_title">SW world</p>
+    </div>
+    <nav class="main_nav">
+      <ul class="main_navbar">
+        <a href="#"><li class="main_nav_content1">마이페이지</li></a>
+        <a href="#"><li class="main_nav_content2">오늘의 코딩량</li></a>
+        <a href="#"><li class="main_nav_content3">코딩 시작하기</li></a>
+        <a href="#"><li class="main_nav_content4">로그아웃</li></a>
+      </ul>
+    </nav>
+  </header>
+  <section>
+    <div class="box">
+      <div class="time_word">오늘의 공부 시간</div>
+      <div class="time">1시간 22분 47초</div>
+      <input type="button" value="코딩공부 종료하기" class="btn_start" onclick="warning()">
+    </div>
+  </section>
+</body>
+</html>
