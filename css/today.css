@@ -54,12 +54,11 @@ li{
   margin: 20px;
   position: absolute;
   width: 544px;
-  height: 818px;
+  height: 605px;
   left: 29px;
-  top: 90px;
+  top: 50px;
   background: #FFFFFF;
   border-radius: 20px;
-  
 }
 
 .container_1{
@@ -141,7 +140,7 @@ li{
 .name1{
   position: absolute;
   width: 133.33px;
-  height: 28.75px;
+  height: 28px;
   left: 15px;
   top: 3px;
 
@@ -156,7 +155,7 @@ li{
 .main-container1{
   position: absolute;
   width: 497px;
-  height: 138px;
+  height: 135px;
   left: 15px;
   top: 140px;
 
@@ -166,7 +165,7 @@ li{
 .text1{
   position: absolute;
   width: 359.9px;
-  height: 19.48px;
+  height: 10px;
   left: 50px;
   top: 40px;
 
@@ -182,7 +181,7 @@ li{
 .main-container2{
     position: absolute;
     width: 497px;
-    height: 138px;
+    height: 135px;
     left: 15px;
     top: 290px;
   
@@ -192,7 +191,7 @@ li{
 .main-container3{
   position: absolute;
   width: 497px;
-  height: 138px;
+  height: 135px;
   left: 15px;
   top: 440px;
 
@@ -202,7 +201,7 @@ li{
 .main-container4{
   position: absolute;
   width: 497px;
-  height: 138px;
+  height: 135px;
   left: 15px;
   top: 590px;
 
@@ -226,21 +225,19 @@ li{
 
 }
 .main2-container{
+  position: absolute;
+  width: 802px;
+  height: 600px;
+  left: 670px;
+  top: 1px;
   
- position: absolute;
- width: 802px;
- height: 818px;
- left: 705px;
- top: 1px;
- 
- background: #FFFFFF;
- border-radius: 20px;
+  background: #FFFFFF;
+  border-radius: 20px;
 }
 .img_graf{
   position: absolute;
-  width: 700px;
-  height: 553.01px;
-  left: 770px;
-  top:  150px;
-
+  width: 660px;
+  height: 480.01px;
+  left: 750px;
+  top:  80px;
 }
